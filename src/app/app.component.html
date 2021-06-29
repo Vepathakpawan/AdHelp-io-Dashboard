@@ -1,0 +1,175 @@
+<body>
+    <!--heder Section1-->
+    <div class="container-fluid header">
+        <div class="row">
+            <div class=" col-md-12 col-xs-12 col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark ">
+                    <a class="nav-link" href="#">AdHelp.io | Comany name</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                        </ul>
+                        <span>
+                            <a class="nav-link" href="#">Collaborate | Logout</a>
+                      </span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Nav Section1 End-->
+
+    <!--Drop down section2-->
+    <div class="container section2">
+        <div class="row">
+            <div class="col-sm-7 p-2 my-3">
+                <div class="float-left ">Daily Cost: <span><a href="# ">SEK 1,000</a></span></div>
+                <div class="float-right ">Project monthly budget: <span><a href="# ">SEK 31,639</a></span></div>
+            </div>
+
+            <div class="col-md-1">
+
+            </div>
+
+            <div class="col-sm-2 col-md-2  p-2 my-2 ">
+                <div class="btn-group">
+                    <button type="button" class="btn"> <img src="assets\image\clipart3265266.png" alt="">Google Ads</button>
+                    <button type="button" class="btn dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link1</a>
+                        <a class="dropdown-item" href="#">Link2</a>
+                        <a class="dropdown-item" href="#">Link3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-md-2  p-2 my-2 ">
+                <div class="btn-group">
+                    <button type="button" class="btn ">Select Range</button>
+                    <button type="button" class="btn dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link1</a>
+                        <a class="dropdown-item" href="#">Link2</a>
+                        <a class="dropdown-item" href="#">Link3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Drop down Section2 end -->
+
+    <!--Counter & Card Section3-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card ">
+                            <div class="card-body ">
+                                <div class="container">
+                                    <h2>
+                                        Clicks
+                                        <i class='far fa-smile'></i>
+                                    </h2>
+                                    <h1>{{Clicks}}</h1>
+                                    <h3>Yaay! <span style="color: rgb(38, 146, 38);">+5,0000</span> than last month</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card ">
+                            <div class="card-body ">
+                                <div class="container">
+                                    <h2>
+                                        Cost <i class='far fa-frown'></i>
+                                    </h2>
+                                    <h1>{{Cost}}</h1>
+                                    <h3>Oops! <span style="color:orangered">-SEK 500 </span> than last month</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <h2>
+                                        Revenue<i class='far fa-meh'></i>
+                                    </h2>
+                                    <h1>{{Revenue}}</h1>
+                                    <h3>Yaay! <span style="color: rgb(38, 146, 38);">+500 </span>than last month</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="card ">
+                            <div class="card-body ">
+                                <div class="container">
+                                    <h2>
+                                        Conversion rate<i class='far fa-meh'></i>
+                                    </h2>
+                                    <h1>{{Conversionrate + "% "}}</h1>
+
+                                    <h3>You are <span style="color:orangered">+SEK 50 </span>off the target</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Counter & Card Section3 End -->
+
+
+            <!--Ads&URL Section4-->
+            <div class="col-sm-4">
+                <div class="text">
+                    <h1>Top 3 perfoming Ads/URLs</h1>
+                    <h4>(Based on most conversions/Clicks)</h4>
+                </div>
+                <div class="card menu">
+                    <ol>
+                        <li>Nike Air | Sports Shoes | Sumer Sale</li>
+                        <li>Nike Air | Sports Shoes female| Sumer Sale</li>
+                        <li>Nike Air Max | Mens Shoes | Sumer Sale</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ads&URL Section4 End -->
+
+
+    <!--Adding line-chartcomponent -->
+    <div class="container">
+        <app-line-chart></app-line-chart>
+    </div>
+    <!-- end line-chartcomponent -->
+
+    <!--Footer-Button Section5-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-sm-8 col-md-8">
+                <div class="button">
+                    <button class="bttn fb"><i class="fa fa-facebook-f" style="font-size:20px"></i>Adverties on Facebook</button>
+                    <button class="bttn conslck"><i class='fab fa-slack'  style="font-size:20px"></i>Connect to Slack</button>
+                    <button class="bttn kn"><i class="far fa-lightbulb" style="font-size:20px"></i>Knowledge center</button>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    <!-- button Section5 end -->
+</body>
+<router-outlet></router-outlet>

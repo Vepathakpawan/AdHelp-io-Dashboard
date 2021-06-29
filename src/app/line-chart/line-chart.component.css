@@ -1,0 +1,16 @@
+h3 {
+    padding: 5px;
+    color: grey;
+    padding-bottom: 5px;
+}
+
+
+/* css of char layout */
+
+chart {
+    display: block;
+    height: 300px;
+    width: 100%;
+    padding-top: 5px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
